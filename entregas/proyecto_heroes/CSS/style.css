@@ -1,0 +1,110 @@
+/* @font-face {
+    font-family: 'Roboto', sans-serif;
+} */
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif
+}
+
+/* ---------HEADER-------------------- */
+#descuentos {
+    background-color:  #1CD1B0;
+    ;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+#word-hero {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 28px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;}
+/* ---------MAIN-------------------- */
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+section article {
+    position: relative;
+    width: 300px;
+    height: 529px;
+    margin: 100px 0 100px;
+    text-align: center;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+article img {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    left: 90px;
+    bottom: 270px;
+
+}
+article h4{
+    margin-top: 55px;
+    font-size: 24px;
+}
+
+article p{
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+}
+
+article button{
+    position: relative;
+    top: 35px;
+    width: 128.78px;
+    height: 48.52px;
+    background: #00669F;
+    color:white;
+    border-color: white;
+
+}
+
+article div {
+    padding: 10px;
+    border-radius: 16px 16px 0 0;
+    padding: 10px;
+    /* width: 100%; */
+    height: 194px;
+    text-align: left;
+}
+article div.header-card-batman {
+    background-image: url(../img/guarida_batman.png);
+    background-size: cover;
+    color: red;
+}
+
+article div.header-card-harley {
+    background-image: url(../img/guarida_harley.png);
+    background-size: cover;
+    color: red;
+}
+
+
+/* ---------FOOTER-------------------- */
+
+footer {
+    background-color: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+#xd {
+    background: red;
+    color: black;
+}

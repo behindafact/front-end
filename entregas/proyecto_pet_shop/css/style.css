@@ -1,0 +1,43 @@
+header {
+    background-color: #222222;
+    color: white;
+}
+
+.front-cat-dog {
+    background-color: #F0A83E;
+    color:white;
+
+}
+
+.bowl-position {
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 409px;
+    text-align:center;
+    /* width: 1025px;
+    height: 409px;
+    left: calc(50% - 1025px/2 + 0.5px);
+    top: 81px; */
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.COMEDEROS {
+    background-color: #F0A83E;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #3C2313;
+    color: white;
+    text-align: left;
+
+}
