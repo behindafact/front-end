@@ -1,38 +1,95 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------HEADER------------- */
+
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #222222;
     color: white;
+    display:flex;
+    height: 20px;
+    font-size: 10px;
+    padding: 4px 90px 4px 90px ;
+}
+#lista1 {
+    display: flex;
+    justify-content: space-around;
+
+   
 }
 
-.front-cat-dog {
+
+
+div.front-cat-dog-menu {
+    display: flex;
+    height: 62px;
     background-color: #F0A83E;
     color:white;
-
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px ;
 }
 
-.bowl-position {
+div.front-cat-dog-menu img {
+    height: 23px;
+    width: 160px;
+
+}
+div ul#lista2 {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+div.bowl-position {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
     background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 409px;
-    text-align:center;
-    /* width: 1025px;
-    height: 409px;
-    left: calc(50% - 1025px/2 + 0.5px);
-    top: 81px; */
+    padding: 12px;
 }
 
-h2 {
-    text-align: center;
+div.bowl-position section{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
 }
 
-h3 {
-    text-align: center;
+div.bowl-position section h2{
+    width: 365px;
+    height: 54px;
+    font-size: 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.COMEDEROS {
+
+div.bowl-position section h3{
+    font-size: 16px;
+}
+
+.boton-comederos {
+    width: 141px;
+    height: 49px;
     background-color: #F0A83E;
     color: white;
-    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
 }
 
 footer {
